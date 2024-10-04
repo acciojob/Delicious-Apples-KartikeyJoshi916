@@ -1,1 +1,42 @@
 /* your code here */
+*{
+	background-color:lightcyan
+}
+.product{
+	display:flex;
+}
+.photo-main{
+	width:330px;
+	background-color:green;
+}
+.photo-album>ul{
+	display:flex;
+}
+.photo-album>ul>li{
+	list-style-type:none;
+	border:1px groove gray;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+}
+.controls>i{
+	color:white;
+}
+.photo-main>img{
+	
+}
+.variant>ul{
+	display:flex;
+}
+.variant>ul>li{
+	list-style-type:none;
+	border:1px groove gray;
+}
+button{
+	border:none;
+	padding:20px 50px;
+	color:white;
+	background-color:red;
+	border-radius:10px;
+}
